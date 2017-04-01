@@ -1,0 +1,7 @@
+#ifndef _BrowserCtrl_icpp_init_stub
+#define _BrowserCtrl_icpp_init_stub
+#include "Core/SSL/init"
+#include "HtmlCtrl/init"
+#include "ScriptLib/init"
+#include "plugin/bz2/init"
+#endif

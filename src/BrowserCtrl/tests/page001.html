@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>BE-script page</title>
+  </head>
+  <body>
+    <h1>hello world</h1>
+    <p>This is a BE-script sample.<br>
+      <br>
+    </p>
+    <script type="text/be">
+	Print("Printing to console: 1 2 3, 1 2 3... testing, testing... I have a big");
+
+	var doc = GetDocumentCtrl();
+	
+	var btn = new Button();
+	btn.SetLabel("Totally in teh browser script buttonz!");
+	btn.SetRect(RectC(100,200,200,30));
+	//btn.LeftPos(100,200).TopPos(30,30);
+	doc.Add(btn);
+	
+	Print("You see it already?!?!!!!");
+
+    </script>
+  </body>
+</html>

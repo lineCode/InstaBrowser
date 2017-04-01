@@ -1,0 +1,6 @@
+#ifndef _HtmlCtrl_icpp_init_stub
+#define _HtmlCtrl_icpp_init_stub
+#include "CtrlLib/init"
+#include "BrowserCore/init"
+#include "gumbo/init"
+#endif

@@ -1,0 +1,18 @@
+description "Common classes with BrowserCtrl and HtmlCtrl.\37728,170,255";
+
+uses
+	Core,
+	Sql,
+	plugin/sqlite3;
+
+file
+	BrowserCore.h,
+	Utils.h,
+	Utils.cpp,
+	"Network Client" readonly separator,
+	NetClient.h,
+	NetClient.cpp,
+	Cache readonly separator,
+	CacheObject.h,
+	CacheObject.cpp;
+

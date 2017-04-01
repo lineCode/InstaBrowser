@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>About The Browser</title>
+  </head>
+  <body>
+    <h1>The Browser</h1>
+    <p>This is a small web-browser for research and learning purposes.<br>
+       It is more flexible than standard browsers in some development,<br>
+       and all be-script apps can eventually be compiled into javascript.<br>
+       <br>
+       This is extremely fragile and prone to crash, so don't expect it to work with<br>
+       any other page than a simple html page + simple css + simple be-script.<br>
+       <br>
+       Examples and demos will be included later.<br>
+    </p>
+    <script type="text/be">
+	Print("Printing to console: 1 2 3, 1 2 3...");
+
+	var doc = GetDocumentCtrl();
+	
+	var btn = new Button();
+	btn.SetLabel("This is a be-script button");
+	btn.SetRect(RectC(300,24,200,30));
+	doc.Add(btn);
+	
+	Print("You see it already?!?!!!!");
+
+    </script>
+  </body>
+</html>

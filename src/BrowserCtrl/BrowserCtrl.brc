@@ -1,0 +1,1 @@
+BINARY_MASK(browserctrl_css_all, "*.css" BZ2)

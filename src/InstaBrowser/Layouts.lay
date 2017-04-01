@@ -1,0 +1,13 @@
+LAYOUT(FindInFilesLayout, 568, 104)
+	ITEM(Label, dv___0, SetLabel(t_("&Find")).LeftPosZ(4, 48).TopPosZ(4, 19))
+	ITEM(WithDropChoice<EditString>, find, HSizePosZ(52, 4).TopPosZ(4, 19))
+	ITEM(Label, dv___2, SetLabel(t_("In fil&es")).LeftPosZ(4, 48).TopPosZ(28, 19))
+	ITEM(DropList, files, HSizePosZ(52, 4).TopPosZ(28, 19))
+	ITEM(Label, replace_lbl, SetLabel(t_("&Replace")).LeftPosZ(4, 48).TopPosZ(52, 22))
+	ITEM(WithDropChoice<EditString>, replace, HSizePosZ(248, 4).TopPosZ(54, 19))
+	ITEM(Switch, style, SetLabel(t_("&None\n&Auto")).LeftPosZ(52, 164).TopPosZ(56, 15))
+	ITEM(Label, replace_lbl2, SetLabel(t_("with:")).LeftPosZ(220, 28).TopPosZ(54, 19))
+	ITEM(Button, ok, SetLabel(t_("OK")).RightPosZ(72, 64).BottomPosZ(6, 22))
+	ITEM(Button, cancel, SetLabel(t_("Cancel")).RightPosZ(4, 64).BottomPosZ(6, 22))
+END_LAYOUT
+

@@ -1,0 +1,41 @@
+description "A web-browser widget. Very small and buggy subset of a big standard browser.\37728,127,200";
+
+noblitz;
+
+uses
+	Core/SSL,
+	HtmlCtrl,
+	plugin/bz2,
+	WrapCore,
+	WrapLib,
+	CodeEditor;
+
+file
+	BrowserCtrl.h,
+	BrowserCtrl.cpp,
+	Console.h,
+	Console.cpp,
+	Inspector.h,
+	Inspector.cpp,
+	NetworkCtrl.h,
+	NetworkCtrl.cpp,
+	PerformanceMonitor.h,
+	PerformanceMonitor.cpp,
+	WebHistory.h,
+	WebHistory.cpp,
+	WebPage.h,
+	WebPage.cpp,
+	WebPageCtrl.h,
+	WebPageCtrl.cpp,
+	WebTools.h,
+	WebTools.cpp,
+	Image.h,
+	Image.cpp,
+	Images.iml,
+	"Builtin Content" readonly separator,
+	master.css,
+	BrowserCtrl.brc;
+
+mainconfig
+	"" = "GUI MT";
+

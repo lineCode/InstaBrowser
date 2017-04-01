@@ -1,0 +1,17 @@
+uses
+	CtrlLib,
+	BrowserCtrl,
+	CtrlUtils;
+
+file
+	main.cpp,
+	InstaBrowser.h,
+	InstaBrowser.cpp,
+	BookmarkBar.cpp,
+	BookmarkBar.h,
+	InstaBrowser.iml,
+	TheBrowser.rc;
+
+mainconfig
+	"" = "GUI MT";
+
